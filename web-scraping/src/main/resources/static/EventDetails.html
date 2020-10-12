@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add New Website Details</title>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/event-details.js"></script>
+</head>
+<style>
+.tableDiv {
+	left: 50%;
+	top: 28%;
+	font-size: 100%;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+</style>
+<body>
+	<div class="container tableDiv">
+		<h1>All Event Details</h1>
+		<h4>Filter Event Table Details</h4>
+		<input type="text" id="websiteNameFiltr" class="eventTablefilter" placeholder="By Website Name...">
+		<input type="text" id="eventNameFiltr" class="eventTablefilter" placeholder="By Event Name...">
+		<input type="text" id="eventDateFiltr" class="eventTablefilter" placeholder="By Event Date...">
+		<input type="text" id="eventLocationFiltr" class="eventTablefilter" placeholder="By Event Location...">
+		<br/><br/>
+		<table id="eventTable" class="table table-bordered data-table">
+			<thead>
+				<th>Website Name</th>
+				<th>Event Name</th>
+				<th>Event Date</th>
+				<th>Event Location</th>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>

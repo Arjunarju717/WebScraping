@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add New Website</title>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/website-details.js"></script>
+</head>
+<style>
+.lablecl {
+	margin-left: -100px;
+}
+</style>
+<body>
+	<div class="container">
+		<h1>Add New Website</h1>
+
+		<div class="form-group">
+			<label class=".lablecl">Website Name:</label> <input type="text"
+				id="name" required=""> <label>URL:</label> <input
+				type="text" id="url" required="">
+		</div>
+		<div class="form-group">
+			<label>Element Type:</label> <input type="text" id="elementType"
+				required=""> <label>Element ID:</label> <input type="text"
+				id="elementId" required=""> <label>Element Class:</label> <input
+				type="text" id="elementClass" required="">
+		</div>
+		<div class="form-group">
+			<label>Event Name Index:</label> <input type="number"
+				id="eventNameIndex" required=""> <label>Event Date
+				Index:</label> <input type="number" id="eventDateIndex" required="">
+			<label>Event Location Index:</label> <input type="number"
+				id="eventLocationIndex" required="">
+		</div>
+
+		<button type="submit" class="btn btn-success save-btn">Save</button>
+		<br /> <br />
+		<h1>Website Details</h1>
+		<table class="table table-bordered data-table">
+			<thead>
+				<th>Website Name</th>
+				<th>URL</th>
+				<th>Element Type</th>
+				<th>Element ID</th>
+				<th>Element Class</th>
+				<th>Event Name Index</th>
+				<th>Event Date Index</th>
+				<th>Event Location Index</th>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>
