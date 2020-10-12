@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+.margin-top-10 {
+    margin-top: 1rem !important;
+}
+.tableDiv {
+	left: 50%;
+	top: 28%;
+	font-size: 100%;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.centered {
+	position: fixed;
+	top: 40%;
+	left: 25%;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+.margin-top-10 {
+	margin-top: 1rem !important;
+}
+.wrapper {
+	width: 500px;
+	border: 1px solid black;
+	overflow: hidden; /* will contain if #first is longer than #second */
+}
+.first {
+	width: 150px;
+	margin-top: 40px;
+	margin-left: 100px;
+	float: left; /* add this */
+}
+.second {
+    width: 200px;
+	margin-top: 40px;
+	margin-left: 100px;
+	float: left;  /* if you don't want #second to wrap below #first */
+}
+.third {
+    width: 250px;
+	margin-top: 40px;
+	margin-left: 0px;
+	float: left;  
+}
+.btn-pad {
+	padding: 20px 60px;
+}
+.webName {
+	left: 50%;
+	top: 28%;
+	font-size: 500%;
+	margin-top: -50px;
+	margin-left: 60px;
+}
+.lablecl {
+	margin-left: -100px;
+}
