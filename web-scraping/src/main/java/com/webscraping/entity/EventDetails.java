@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "EVENTDETAILS")
+@Table(name = "eventdetails")
 public class EventDetails implements Serializable {
 
 	private static final long serialVersionUID = -4130852263137851045L;

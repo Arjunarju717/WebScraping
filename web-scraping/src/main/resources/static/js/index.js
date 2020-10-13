@@ -12,7 +12,7 @@ $(document).ready(function() {
 			},
 			error : function(error) {
 				$('#loading-image').hide();
-				alert(error.message);
+				alert(error.responseJSON.message);
 			}
 		});
 

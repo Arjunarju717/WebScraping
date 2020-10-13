@@ -34,7 +34,7 @@ $(document).ready(
 				            success: function (result) {
 				            	window.location.reload();
 				            }, error: function(error) {
-				            	  alert(error.message);
+				            	  alert(error.responseJSON.message);
 				            }
 				            
 				        });

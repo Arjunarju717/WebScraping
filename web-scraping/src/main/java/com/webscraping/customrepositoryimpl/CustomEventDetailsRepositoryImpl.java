@@ -18,12 +18,12 @@ public class CustomEventDetailsRepositoryImpl implements CustomEventDetailsRepos
 	@Override
 	public List<EventDetails> getAllEventDetails() {
 		
-		String sql= "select *\r\n" + 
-				"from eventdetails as ed\r\n" + 
-				"inner join (\r\n" + 
-				"    select etd.websitename, max(etd.createddate) as MaxDate\r\n" + 
-				"    from eventdetails as etd\r\n" + 
-				"    group by etd.websitename\r\n" + 
+		String sql= "select * " + 
+				"from eventdetails as ed " + 
+				"inner join ( " + 
+				"select etd.websitename, max(etd.createddate) as MaxDate " + 
+				"from eventdetails as etd " + 
+				"group by etd.websitename " + 
 				") as edtemp on ed.websitename = edtemp.websitename and ed.createddate = edtemp.MaxDate";
 		Query query = entityManager.createNativeQuery(sql, EventDetails.class);
 		return query.getResultList();

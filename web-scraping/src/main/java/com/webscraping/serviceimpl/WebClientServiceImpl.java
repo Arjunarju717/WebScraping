@@ -41,7 +41,7 @@ public class WebClientServiceImpl implements WebClientService {
 	public Callable<List<EventDetails>> getTableData(WebsiteDetails websiteDetails) {
 		if (logger.isDebugEnabled()) {
 			logger.debug(String.format("Get table data for website : %s",
-					websiteDetails.getName() != null ? null : websiteDetails.getName()));
+					websiteDetails.getName() != null ? websiteDetails.getName() : null));
 		}
 		return new Callable<List<EventDetails>>() {
 			@Override
@@ -81,7 +81,7 @@ public class WebClientServiceImpl implements WebClientService {
 	public Callable<List<EventDetails>> getAnchorData(WebsiteDetails websiteDetails) {
 		if (logger.isDebugEnabled()) {
 			logger.debug(String.format("Get anchor data for website : %s",
-					websiteDetails.getName() != null ? null : websiteDetails.getName()));
+					websiteDetails.getName() != null ? websiteDetails.getName() : null));
 		}
 		return new Callable<List<EventDetails>>() {
 			@Override

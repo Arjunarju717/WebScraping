@@ -25,7 +25,7 @@ public class WebScrapingUtility {
 
 	public static boolean validateWebsiteDetailsDTO(WebsiteDetailsDTO websiteDetailsDTO) {
 		if (logger.isDebugEnabled()) {
-			logger.debug("Validating website details DTO : %s", websiteDetailsDTO.toString());
+			logger.debug(String.format("Validating website details DTO : %s", websiteDetailsDTO.toString()));
 		}
 		StringBuilder sb = new StringBuilder();
 		boolean isValid = true;
@@ -107,7 +107,7 @@ public class WebScrapingUtility {
 			websiteDetailsDTO.setErrorMessage(sb.toString());
 		}
 		if (logger.isDebugEnabled()) {
-			logger.debug("Is WebsiteDetails valid : %s", isValid);
+			logger.debug(String.format("Is WebsiteDetails valid : %s", isValid));
 		}
 		return isValid;
 	}

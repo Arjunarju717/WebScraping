@@ -1,0 +1,64 @@
+2020-10-13 13:41:34,495 INFO o.s.b.StartupInfoLogger [restartedMain] Starting WebScrapingApplication on ATH051685 with PID 9360 (C:\Users\an\git\WebScraping\web-scraping\target\classes started by an in C:\Users\an\git\WebScraping\web-scraping)
+2020-10-13 13:41:34,507 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-13 13:41:34,508 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-10-13 13:41:34,541 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\an\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar referenced one or more files that do not exist: file:/C:/Users/an/.m2/repository/xalan/xalan/2.7.2/xercesImpl.jar,file:/C:/Users/an/.m2/repository/xalan/xalan/2.7.2/xml-apis.jar,file:/C:/Users/an/.m2/repository/xalan/xalan/2.7.2/serializer.jar
+2020-10-13 13:41:34,546 INFO o.s.b.l.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\an\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar referenced one or more files that do not exist: file:/C:/Users/an/.m2/repository/xalan/serializer/2.7.2/xml-apis.jar
+2020-10-13 13:41:34,547 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-13 13:41:34,547 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-13 13:41:35,154 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-13 13:41:35,213 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+2020-10-13 13:41:35,582 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-10-13 13:41:35,588 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-13 13:41:35,588 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-10-13 13:41:35,588 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-13 13:41:35,718 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-10-13 13:41:35,719 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1172 ms
+2020-10-13 13:41:35,883 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:41:35,907 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-13 13:41:35,981 INFO o.h.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-13 13:41:36,077 INFO o.h.a.c.r.j.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 13:41:36,157 INFO c.z.h.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-10-13 13:41:36,449 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 13:41:36,588 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2020-10-13 13:41:36,714 INFO c.z.h.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-10-13 13:41:36,724 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-10-13 13:41:37,284 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 13:41:37,290 INFO o.s.o.j.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:41:37,302 INFO o.s.b.d.a.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2020-10-13 13:41:37,347 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-13 13:41:37,368 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-10-13 13:41:37,384 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-13 13:41:37,385 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-10-13 13:41:37,527 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-10-13 13:41:37,539 INFO o.s.b.StartupInfoLogger [restartedMain] Started WebScrapingApplication in 3.295 seconds (JVM running for 4.451)
+2020-10-13 13:42:38,487 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 13:42:38,487 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-10-13 13:42:38,494 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-10-13 13:42:53,408 DEBUG c.w.s.EventDetailsServiceImpl [http-nio-8080-exec-10] Get event details
+2020-10-13 13:43:00,284 DEBUG c.w.s.WebsiteDetailsServiceImpl [http-nio-8080-exec-6] Get all website details
+2020-10-13 13:43:03,785 DEBUG c.w.s.EventDetailsServiceImpl [http-nio-8080-exec-9] Scraping event data
+2020-10-13 13:43:03,790 DEBUG c.w.s.EventDetailsServiceImpl [http-nio-8080-exec-9] Creating callables for all the websites
+2020-10-13 13:43:03,792 DEBUG c.w.s.WebClientServiceImpl [http-nio-8080-exec-9] Get table data for website : Computer World
+2020-10-13 13:43:03,793 DEBUG c.w.s.WebClientServiceImpl [http-nio-8080-exec-9] Get anchor data for website : Tech Meme
+2020-10-13 13:43:03,795 DEBUG c.w.s.WebClientServiceImpl [pool-2-thread-1] Get html page for url : https://www.computerworld.com/article/3313417/tech-event-calendar-2020-upcoming-shows-conferences-and-it-expos.html
+2020-10-13 13:43:03,795 DEBUG c.w.s.WebClientServiceImpl [pool-2-thread-2] Get html page for url : https://www.techmeme.com/events
+2020-10-13 13:43:05,208 INFO c.g.h.WebClient [pool-2-thread-1] statusCode=[400] contentType=[text/html]
+2020-10-13 13:43:05,209 INFO c.g.h.WebClient [pool-2-thread-1] <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 400 (Bad Request)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>400.</b> <ins>That’s an error.</ins>
+  <p>Your client has issued a malformed or illegal request.  <ins>That’s all we know.</ins>
+
+2020-10-13 13:43:12,064 DEBUG c.w.s.EventDetailsServiceImpl [http-nio-8080-exec-4] Get event details
+2020-10-13 13:43:15,799 DEBUG c.w.s.WebsiteDetailsServiceImpl [http-nio-8080-exec-8] Get all website details
+2020-10-13 13:43:49,071 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2020-10-13 13:43:49,332 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 13:43:49,335 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 13:43:49,338 INFO c.z.h.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2020-10-13 13:43:49,343 INFO c.z.h.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
