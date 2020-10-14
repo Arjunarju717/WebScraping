@@ -25,6 +25,6 @@ public class RegistrationConstants {
 
 	public static final String WEBSITE_ADDED_SUCCESSFULLY = "Website details added successfully";
 	
-	public static final String SCRAPE_EVENT_SUCCESSFULLY = "Scraping event data was successfully";
+	public static final String SCRAPE_EVENT_SUCCESSFULLY = "Scraping event data was successful";
 
 }
